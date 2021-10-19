@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 75px;
+    padding: 20px 75px 20px 75px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #F9FAF8;
+}
+main {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    padding: 0 75px 20px 75px;
+    gap: 30px;
+}
+
+.Introduction {
+    flex: 1;
+}
+
+.Introduction button {
+    background-color: #3882F6;
+    border: none;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.Introduction-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
